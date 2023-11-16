@@ -517,12 +517,12 @@ span.ts{
 
 .skills-table tr{
     border: 12px solid #fff;
-    border-bottom: 1px solid #ddd;
+    border-bottom: 1px solid #1d4086;
 }
 
 .skills-table td{
     padding: 3px 5px;
-    border-bottom: 1px solid #ddd;
+    border-bottom: 1px solid #7b00ff;
     /*color: #32cf0b;*/
 }
 
@@ -535,8 +535,7 @@ span.ts{
     width: 100%;
     height: 25px;
     margin: 5px;
-    background: #0b60cf;
-    /*margin: 0 auto;*/
+    background: #b8bfc7;
 }
 
 .skills-table .name{
@@ -795,4 +794,3 @@ span.ts{
         font-size: 22px;
     }
 }
-

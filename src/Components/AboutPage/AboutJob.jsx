@@ -5,7 +5,7 @@ export default function AboutJob (  ) {
 	return <div className='section'>
 						<div className='container'>
 
-						<p data-aos='fade-right' className='about-paragraf'><b>Мой опыт в разработке-></b><br/><br/></p>
+						<p data-aos='fade-right' className='about-paragraf'><b>Мой опыт в разработке 🖥️-></b><br/><br/></p>
 
 							<div>
 								{Data.job.map( el => {

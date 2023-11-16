@@ -6,7 +6,7 @@ export default function AboutSkills(){
 	return <div className='section'>
 						<div className='container'>
 
-						<p data-aos='fade-right' className='about-paragraf'><b>Мои навыки -></b><br/><br/></p>
+						<p data-aos='fade-right' className='about-paragraf'><b>Мои навыки 💠-></b><br/><br/></p>
 						<table className='skills-table'>
 							<tr data-aos='fade-right'>
 								<td className='name'>Skills Name</td>

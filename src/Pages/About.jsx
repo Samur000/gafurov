@@ -4,6 +4,7 @@ import AboutEdu from '../Components/AboutPage/AboutEdu'
 import AboutSkills from '../Components/AboutPage/AboutSkills'
 import AboutJob from '../Components/AboutPage/AboutJob'
 import { Helmet } from 'react-helmet'
+import AboutStack from '../Components/AboutPage/AboutStack'
 
 const AboutPage = () => {
 	const Data = data.info
@@ -15,6 +16,7 @@ const AboutPage = () => {
 		<div className='title-1 white'>About</div>
 
 		<AboutInfo/>
+		<AboutStack/>
 		<AboutEdu/>
 		<AboutSkills/>
 		<AboutJob/>

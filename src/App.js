@@ -22,13 +22,13 @@ function App(){
 		<Header/>
 
 		<div className='routes'>
-		<Routes>
-			<Route path='/' element={<HomePage/>}/>
+			<Routes>
+				<Route path='/' element={<HomePage/>}/>
 				<Route path='projects' element={<Projects/>}/>
 				<Route path='project/:id' element={<ProjectPage/>}/>
 				<Route path='about' element={<AboutPage/>}/>
 				<Route path='contacts' element={<ContactsPage/>}/>
-		</Routes>
+			</Routes>
 		</div>
 
 		<Footer/>
