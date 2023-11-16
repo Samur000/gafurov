@@ -796,3 +796,16 @@ span.ts{
         font-size: 22px;
     }
 }
+body::-webkit-scrollbar {
+    width: 5px;               /* ширина всей полосы прокрутки */
+}
+
+body::-webkit-scrollbar-track {
+    background: #4900bb;        /* цвет зоны отслеживания */
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: #48ff00;    /* цвет бегунка */
+    border-radius: 20px;       /* округлось бегунка */
+
+}
