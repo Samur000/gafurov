@@ -5,7 +5,6 @@ import telegramLogo from '../icons/telegram.svg'
 
 const Footer = () => {
 	return <>
-        <div className='footer-mask'></div>
     <footer class='footer'>
       <div class='container'>
          <div class='footer__text'>&copy; 2023 Frontend React Dev</div>

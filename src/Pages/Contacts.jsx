@@ -13,6 +13,11 @@ const ContactsPage = () => {
 			<div className='container contacts'>
 				<div className='title-1 white'>Contacts</div>
 
+				<div className='contacts-block'>
+					<div>
+						<img src='https://cdn-icons-png.flaticon.com/512/5556/5556468.png' alt=''/>
+					</div>
+					<div>
 				<p className='about-paragraf'>
 					<b>Хочешь сотрудничать, или есть что сказать? -></b><br/><br/>
 					Напиши мне по оставленным ниже контактам !
@@ -41,6 +46,8 @@ const ContactsPage = () => {
 						<p><a target="_blank" href="https://www.instagram.com/qafurov_05">qafurov_05</a></p>
 					</li>
 				</ul>
+					</div>
+				</div>
 			</div>
 		</div>
 }

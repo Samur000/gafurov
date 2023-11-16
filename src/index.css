@@ -90,12 +90,12 @@ legend{
 }
 
 html, body{
+    max-height: max-content;
     font-family: 'Dm Sans';
     color: var(--black);
 }
 
 .container{
-    min-height: 100%;
     padding: 0 15px;
     max-width: 1200px;
     margin: 0 auto;
@@ -112,7 +112,6 @@ html, body{
     font-weight: 500;
     letter-spacing: 1px;
     word-spacing: 3px;
-    /*margin-bottom: 10px;*/
 }
 
 .about .section{
@@ -605,7 +604,10 @@ span.ts{
     font-size: 22px;
     color: #0011cc;
 }
-
+.contacts-block{
+    display: flex;
+    flex-wrap: wrap;
+}
 @media (max-width: 620px){
 
     /* Header */
