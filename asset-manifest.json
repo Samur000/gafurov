@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/gafurov/static/css/main.dc7f738b.css",
-    "main.js": "/gafurov/static/js/main.ef315682.js",
+    "main.css": "/gafurov/static/css/main.46b69bce.css",
+    "main.js": "/gafurov/static/js/main.f7f5dff9.js",
     "static/js/787.cf482a7c.chunk.js": "/gafurov/static/js/787.cf482a7c.chunk.js",
     "static/media/resume.pdf": "/gafurov/static/media/resume.84e9f2007f764a8cfd22.pdf",
     "static/media/site.ic.png": "/gafurov/static/media/site.ic.b8976d71dad3e456f4db.png",
@@ -13,12 +13,12 @@
     "static/media/whatsapp.svg": "/gafurov/static/media/whatsapp.cd0e77611f5fc6f1a52820c9571d5d80.svg",
     "index.html": "/gafurov/index.html",
     "static/media/mail.svg": "/gafurov/static/media/mail.1f594b56615e11b4e9dc8c2d7dba1fd2.svg",
-    "main.dc7f738b.css.map": "/gafurov/static/css/main.dc7f738b.css.map",
-    "main.ef315682.js.map": "/gafurov/static/js/main.ef315682.js.map",
+    "main.46b69bce.css.map": "/gafurov/static/css/main.46b69bce.css.map",
+    "main.f7f5dff9.js.map": "/gafurov/static/js/main.f7f5dff9.js.map",
     "787.cf482a7c.chunk.js.map": "/gafurov/static/js/787.cf482a7c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.dc7f738b.css",
-    "static/js/main.ef315682.js"
+    "static/css/main.46b69bce.css",
+    "static/js/main.f7f5dff9.js"
   ]
 }
