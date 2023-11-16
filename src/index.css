@@ -249,7 +249,7 @@ html, body{
 }
 
 .header__text span{
-    color: chartreuse;
+    color: #ffdbdb;
 }
 
 .header__text p + p{
