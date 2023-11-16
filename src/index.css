@@ -122,11 +122,6 @@ html, body{
 .about-paragraf a{
     color: #32cf0b;
 }
-
-.about-paragraf{
-    letter-spacing: -.5px;
-}
-
 .about-paragraf b{
     font-family: 'Handjet', sans-serif;
     font-size: 35px;
@@ -780,11 +775,11 @@ span.ts{
     }
 
     .about-paragraf{
-        font-size: 17px;
+        font-size: 22px;
     }
 
     .about-paragraf b{
-        font-size: 25px;
+        font-size: 27px;
     }
 
     .content-list .content-list__item h2{
