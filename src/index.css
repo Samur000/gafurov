@@ -171,7 +171,7 @@ html, body{
 }
 
 .menu__links a{
-    font-size: 18px;
+    font-size: 20px;
     color: #fff;
     transition: opacity .2s ease-in;
 }
@@ -641,6 +641,7 @@ span.ts{
     }
 
     .menu__links{
+        min-height: 100vh;
         position: absolute;
         flex-direction: column;
         align-items: flex-start;
@@ -655,6 +656,10 @@ span.ts{
         overflow: hidden;
         transition: width 0.5s ease-in-out, transform 0.5s ease-in-out;
         transform: translateX(-80px);
+    }
+    .menu__links a{
+        margin-bottom: 7px;
+        font-size: 22px;
     }
 
     .menu__links.open{
