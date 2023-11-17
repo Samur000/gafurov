@@ -9,17 +9,19 @@ import AboutStack from '../Components/AboutPage/AboutStack'
 const AboutPage = () => {
 	const Data = data.info
 
-	return <div className='about black'>
+	return <div className='section about black'>
 		<Helmet>
 			<title>About</title>
 		</Helmet>
-		<div className='title-1 white'>About</div>
+		<div className='container'>
 
-		<AboutInfo/>
-		<AboutStack/>
-		<AboutEdu/>
-		<AboutSkills/>
-		<AboutJob/>
+			<div className='title-1 white'>About</div>
+			<AboutInfo/>
+			<AboutStack/>
+			<AboutEdu/>
+			<AboutSkills/>
+			<AboutJob/>
+		</div>
 	</div>
 }
 

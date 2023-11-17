@@ -13,14 +13,11 @@ export default function AboutJob (  ) {
 										<div data-aos='fade-right' className='comp-name'><b> {el.companyName} - {el.jobName}</b></div>
 										<div data-aos='fade-right'><b>Длительность работы:</b> {el.durationMonth}</div>
 										<div data-aos='fade-right'><b>Стек технологий :</b> {el.stack.join( ' - ' )}</div>
-										<div data-aos='fade-right'><b>Ситуация :</b> {el.desc.situation}</div>
-										<div data-aos='fade-right'><b>Моя задача :</b> {el.desc.task}</div>
-										<div data-aos='fade-right'><b>Выполненные действия :</b> {el.desc.actions.map( el => {
+										<div data-aos='fade-right'><b>Выполненная работа :</b> {el.desc.actions.map( el => {
 											return <div>⚡ {el}</div>
 										} )}
 										</div>
-										<div data-aos='fade-right'><b>Результат :</b> {el.desc.result}</div>
-										<br/><br/>
+										<br/>
 									</div>
 								} )}
 							</div>

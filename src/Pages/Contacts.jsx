@@ -6,7 +6,7 @@ import mail from '../icons/mail.svg'
 import wh from '../icons/whatsapp.svg'
 
 const ContactsPage = () => {
-	return<div className='section black'>
+	return<div className='section contacts black'>
 		<Helmet>
 			<title>Contacts</title>
 		</Helmet>
@@ -15,9 +15,6 @@ const ContactsPage = () => {
 
 				<div className='contacts-block'>
 					<div>
-						<img src='https://cdn-icons-png.flaticon.com/512/5556/5556468.png' alt=''/>
-					</div>
-					<div>
 				<p className='about-paragraf'>
 					<b>Хочешь сотрудничать, или есть что сказать? -></b><br/><br/>
 					Напиши мне по оставленным ниже контактам !
@@ -25,10 +22,9 @@ const ContactsPage = () => {
 
 				<ul className="content-list">
 					<li className="content-list__item">
-						<h2 className="title-2"> <img src={tg} alt=''/> Telegram -> </h2>
+						<h2 className=""> <img src={tg} alt=''/> Telegram -> </h2>
 						<a target='_blank' href='https://t.me/qafurov'>@qafurov</a>
 					</li>
-
 					<li className="content-list__item">
 						<h2 className="title-2"> <img src={wh} alt=''/> Whatsapp -></h2>
 						<a target='_blank' href='https://wa.me/79286791610'>+7 (928) 679-16-10</a>

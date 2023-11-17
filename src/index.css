@@ -85,7 +85,7 @@ legend{
 
 :root{
     --black: #171718;
-    --purple: #0011cc;
+    --purple: #39d9ee;
     --pop: 'Poppins';
 }
 
@@ -121,6 +121,7 @@ html, body{
 .about-paragraf a{
     color: #32cf0b;
 }
+
 .about-paragraf b{
     font-family: 'Handjet', sans-serif;
     font-size: 35px;
@@ -176,7 +177,7 @@ html, body{
 }
 
 .menu__links .active{
-    border-bottom: 2px solid #9d5cec;
+    border-bottom: 2px solid var(--purple);
     border-radius: 5px;
     padding-bottom: 5px;
 }
@@ -209,7 +210,7 @@ html, body{
 
 .header{
     min-height: 695px;
-    padding: 40px 20px;
+    padding: 20px 20px;
     font-family: 'Roboto';
     display: flex;
     align-items: center;
@@ -310,11 +311,11 @@ html, body{
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
-    gap: 30px;
+    gap: 25px;
 }
 
 .project{
-    width: 340px;
+    max-width: 240px;
     background-color: #494949;
     box-shadow: 0px 5px 35px rgba(0, 0, 0, 0.25);
     border-radius: 10px;
@@ -332,10 +333,10 @@ html, body{
 }
 
 .project__title{
-    padding: 15px 20px 25px;
+    padding: 7px 10px 15px;
     color: #fff;
     font-weight: 700;
-    font-size: 24px;
+    font-size: 20px;
     line-height: 1.3;
 }
 
@@ -429,6 +430,7 @@ html, body{
     background-color: var(--black);
     color: #fff;
 }
+
 .footer .container{
     display: flex;
     align-items: center;
@@ -441,9 +443,11 @@ html, body{
     gap: 30px;
     /*margin: 0px 0px 30px 0px;*/
 }
+
 .socials__item{
     width: 24px;
 }
+
 .footer__text{
     font-size: 16px;
 }
@@ -468,7 +472,6 @@ html, body{
     line-height: 1.3;
     text-align: center;
 }
-
 .content-list__item p{
     font-size: 18px;
     font-weight: 400;
@@ -560,7 +563,7 @@ span.ts{
 }
 
 .edu b{
-    color: #8c54ff;
+    color: #b48fff;
 }
 
 .job{
@@ -575,7 +578,7 @@ span.ts{
 .comp-name b{
     font-weight: 900;
     font-size: 25px;
-    color: #bb00ff;
+    color: #a0ffb1;
 }
 
 .content-list__item{
@@ -586,12 +589,11 @@ span.ts{
 }
 
 .content-list__item img{
-    width: 30px;
-    height: 30px;
+    width: 25px;
 }
 
 .contacts .content-list h2{
-    font-size: 32px;
+    font-size: 25px;
     display: flex;
     align-items: center;
     gap: 10px;
@@ -604,10 +606,12 @@ span.ts{
     font-size: 22px;
     color: #0011cc;
 }
+
 .contacts-block{
     display: flex;
     flex-wrap: wrap;
 }
+
 @media (max-width: 620px){
 
     /* Header */
@@ -636,7 +640,9 @@ span.ts{
     .header__text{
         font-size: 22px;
     }
-
+    .nav{
+        padding: 15px 0;
+    }
     .nav__menu{
         z-index: 2;
     }
@@ -651,16 +657,16 @@ span.ts{
         left: 0;
         top: 80px;
         background-color: var(--black);
-        /*padding: 20px;*/
         padding: 20px;
         width: 0px;
         overflow: hidden;
         transition: width 0.5s ease-in-out, transform 0.5s ease-in-out;
         transform: translateX(-80px);
     }
+
     .menu__links a{
         margin-bottom: 7px;
-        font-size: 22px;
+        font-size: 20px;
     }
 
     .menu__links.open{
@@ -694,11 +700,11 @@ span.ts{
     }
 
     .project{
-        width: 300px;
+        max-width: 150px;
     }
 
     .project__title{
-        font-size: 22px;
+        font-size: 18px;
     }
 
     /* Projects page */
@@ -721,9 +727,11 @@ span.ts{
     .footer .container{
         gap: 20px;
     }
+
     .socials{
         gap: 13px;
     }
+
     .socials__item{
         width: 20px;
         gap: 10px;
@@ -768,20 +776,23 @@ span.ts{
     .contacts .content-list h2{
         font-size: 20px;
     }
+    .comp-name b{
+        font-size: 22px;
+    }
 }
 
 @media (max-width: 500px){
     .project{
-        width: 180px;
+        max-width: 150px;
     }
 
     .project__title{
-        font-size: 17px;
+        font-size: 15px;
         padding: 10px 15px 10px;
     }
 
     .about-paragraf{
-        font-size: 22px;
+        font-size: 16px;
     }
 
     .about-paragraf b{
@@ -789,23 +800,31 @@ span.ts{
     }
 
     .content-list .content-list__item h2{
-        font-size: 22px;
+        font-size: 18px;
     }
 
     .content-list .content-list__item a{
-        font-size: 22px;
+        font-size: 16px;
+    }
+    .comp-name b{
+        font-size: 20px;
+        line-height: 1.5;
     }
 }
-body::-webkit-scrollbar {
-    width: 5px;               /* ширина всей полосы прокрутки */
+
+body::-webkit-scrollbar{
+    width: 5px;
 }
 
-body::-webkit-scrollbar-track {
-    background: #4900bb;        /* цвет зоны отслеживания */
+body::-webkit-scrollbar-track{
+    background: #00f7ff;
 }
 
-body::-webkit-scrollbar-thumb {
-    background-color: #48ff00;    /* цвет бегунка */
-    border-radius: 20px;       /* округлось бегунка */
+body::-webkit-scrollbar-thumb{
+    background-color: #002986;
+    border-radius: 20px;
+}
 
+.contacts{
+    margin-bottom: auto;
 }
