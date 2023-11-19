@@ -137,9 +137,6 @@ html, body{
     border-bottom: 1px solid #26292D;
     font-family: 'Roboto';
     letter-spacing: normal;
-
-    position: sticky;
-    top: 0px;
 }
 
 .nav__menu{
@@ -826,5 +823,5 @@ body::-webkit-scrollbar-thumb{
 }
 
 .contacts{
-    margin-bottom: auto;
+    min-height: calc(100vh - 210px);
 }

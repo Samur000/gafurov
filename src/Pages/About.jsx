@@ -19,7 +19,7 @@ const AboutPage = () => {
 			<AboutInfo/>
 			<AboutStack/>
 			<AboutEdu/>
-			<AboutSkills/>
+			{/*<AboutSkills/>*/}
 			<AboutJob/>
 		</div>
 	</div>
