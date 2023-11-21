@@ -21,7 +21,8 @@ const ProjectPage = () => {
 							<br/>
 							<p className='about-paragraf'><b>Стек технологий:</b> {Data.des.stack.join(', ')}</p>
 						</div>
-						<a target='_blank' href={Data.url} className='section__btn white'>Смотреть</a>
+						{Data.url? <a target='_blank' href={Data.url} className='section__btn white'>Смотреть</a> : ''}
+						{/*<a target='_blank' href={Data.url} className='section__btn white'>Смотреть</a>*/}
 				    </div>
 				</div>
 			</section>

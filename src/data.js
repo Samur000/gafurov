@@ -11,7 +11,7 @@ const data = {
         age: 19,
         jobName: 'Frontend',
         skills: [
-			{
+            {
             name: 'HTML',
             level: 10,
         }, {
@@ -20,7 +20,7 @@ const data = {
         }, {
             name: 'SCSS / Sass',
             level: 10,
-        },{
+        }, {
             name: 'jQuery',
             level: 8,
         }, {
@@ -29,16 +29,16 @@ const data = {
         }, {
             name: 'TypeScript',
             level: 8,
-        },{
+        }, {
             name: 'React',
             level: 9,
-        },{
+        }, {
             name: 'Swelte',
             level: 7,
-        },{
+        }, {
             name: 'REST API',
             level: 9,
-        },{
+        }, {
             name: 'Git',
             level: 8,
         }, {
@@ -65,7 +65,7 @@ const data = {
             graduationYear: 2024,
         },
         job: [
-			{
+            {
             companyName: 'Projects Lab',
             jobName: 'Frontend React Developer',
             stack: ['React', 'TypeScript', 'Styled-Components', 'React Bootstrap'],
@@ -73,10 +73,7 @@ const data = {
             desc: {
                 situation: 'перед нашей командой стояла задача разработать онлайн сервис для удобного бронирования услуг.',
                 task: 'Разработка онлайн-платформы для записи на разные косметологические услуги',
-                actions: [
-                    'Технологии: React, TypeScript, React-Bootstrap, Styled-Components, React-Calendar, JWT, PrivateRouter',
-                    '- Обязанности: разработка Frontend части приложения, участие в проектировании и разработке архитектуры клиентской части, коммуникация с заказчиками, реализация регистрации. авторизации и аутентификации пользователей и.др',
-                    ],
+                actions: ['Технологии: React, TypeScript, React-Bootstrap, Styled-Components, React-Calendar, JWT, PrivateRouter', '- Обязанности: разработка Frontend части приложения, участие в проектировании и разработке архитектуры клиентской части, коммуникация с заказчиками, реализация регистрации. авторизации и аутентификации пользователей и.др'],
                 result: 'в итоге моей работы было получено безопасное и адаптивное веб приложение, обеспечивающее удобное и безопасное бронирование услуг.',
             },
         }, {
@@ -87,10 +84,7 @@ const data = {
             desc: {
                 situation: 'нужен интерфейс сайта для взаимодействия с API',
                 task: 'Разработка сайта для тур агентства ДагАвтоГид',
-                actions: [
-                    'Технологии: Html, Css, JavaScript, Figma',
-                    'Обязанности: верстка страниц адаптивно и отзывчиво согласно по макету, размещении кода на php файла для SSR, активное участие в ежедневных созвонах и в создании новых фич',
-                    ],
+                actions: ['Технологии: Html, Css, JavaScript, Figma', 'Обязанности: верстка страниц адаптивно и отзывчиво согласно по макету, размещении кода на php файла для SSR, активное участие в ежедневных созвонах и в создании новых фич'],
                 result: 'моя работа привела к созданию эффективной верстки сайта https://www.dagavtogid.ru обеспечивающее надежное взаимодействие с бэкенд частью. Проект был удачно завершен.',
             },
         }, {
@@ -101,16 +95,12 @@ const data = {
             desc: {
                 situation: 'для компании по производству и продаже сэндвич панелей нужен сайт для продвижения бизнеса.',
                 task: 'Разработка полноценного многостраничного сайта для компании по производству и продаже сэндвич панелей',
-                actions: [
-                    '- Технологии: Html, Css, JavaScript, jQuery, Bootstrap, PHP',
-                    '- Обязанности: верстка страниц, реализация динамики, реализация отправки формы на почту, хостинг сайта, получение сертификата для HTTPS соединения, SEO оптимизация сайта и продвижение на Яндекс директ',
-                ],
+                actions: ['- Технологии: Html, Css, JavaScript, jQuery, Bootstrap, PHP', '- Обязанности: верстка страниц, реализация динамики, реализация отправки формы на почту, хостинг сайта, получение сертификата для HTTPS соединения, SEO оптимизация сайта и продвижение на Яндекс директ'],
                 result: 'в одиночку разработал сайт который привлекала клиентов. Проект был успешно завершен и заказчик остался доволен.',
             },
         }],
     },
-    projects: [
-		{
+    projects: [{
         id: 1,
         title: 'Эра сталь',
         img: 'https://raw.githubusercontent.com/Samur000/props-profile-portfolio/main/01.jpg',
@@ -121,6 +111,24 @@ const data = {
         },
     }, {
         id: 2,
+        title: 'White keepers',
+        img: 'https://raw.githubusercontent.com/Samur000/props-profile-portfolio/main/07.jpg',
+        url: '',
+        des: {
+            stack: ['React', 'TypeScript', 'Redux'],
+            text: 'Сайт компании занимающийся кибербезопасностью и защитой информвционных систем',
+        },
+    }, {
+        id: 3,
+        title: 'ДагАвтоГид',
+        img: 'https://raw.githubusercontent.com/Samur000/props-profile-portfolio/main/08.jpg',
+        url: 'https://dagavtogid.ru/',
+        des: {
+            stack: ['Html', 'Css', 'JavaScript'],
+            text: 'Сайт тур компании. В разработке данного проекта я учавствовал в роли верстальщика',
+        },
+    },{
+        id: 4,
         title: 'Слайдер',
         img: 'https://raw.githubusercontent.com/Samur000/props-profile-portfolio/main/02.jpg',
         url: 'https://samur000.github.io/gallery/',
@@ -129,7 +137,7 @@ const data = {
             text: 'Креативный слайдер для просмотра фотографий',
         },
     }, {
-        id: 3,
+        id: 5,
         title: 'Слайдер',
         img: 'https://raw.githubusercontent.com/Samur000/props-profile-portfolio/main/03.jpg',
         url: 'https://samur000.github.io/slider/',
@@ -138,7 +146,7 @@ const data = {
             text: 'Слайдер переключающийся как при клике на кнопки так и при нажатии клавищ верх и вниз',
         },
     }, {
-        id: 4,
+        id: 6,
         title: 'Игра антистресс',
         img: 'https://raw.githubusercontent.com/Samur000/props-profile-portfolio/main/04.jpg',
         url: 'https://samur000.github.io/miniCursorGame/',
@@ -147,7 +155,7 @@ const data = {
             text: 'Мини игра антистресс. Квадратики меняют цвет рандомно при наведении курсора',
         },
     }, {
-        id: 5,
+        id: 7,
         title: 'Генератор цветов',
         img: 'https://raw.githubusercontent.com/Samur000/props-profile-portfolio/main/05.jpg',
         url: 'https://samur000.github.io/color-selection/',
@@ -156,31 +164,13 @@ const data = {
             text: 'Отличный сервис для выбора разнвх цветов лдя дизайнеров. Цвета переключаются при нажатии клавищи ' + 'пробел. Также можно блокировать понравивщийся цвет и пролистать дальше.',
         },
     }, {
-        id: 6,
+        id: 8,
         title: 'Aim game',
         img: 'https://raw.githubusercontent.com/Samur000/props-profile-portfolio/main/06.jpg',
         url: 'https://samur000.github.io/aim-game/',
         des: {
             stack: ['Html', 'Css', 'JavaScript'],
             text: 'Игра Aim Game, прокачает внимательность нажатия на определенную точку на экране',
-        },
-    }, {
-        id: 7,
-        title: 'White keepers',
-        img: 'https://raw.githubusercontent.com/Samur000/props-profile-portfolio/main/07.jpg',
-        url: '!#',
-        des: {
-            stack: ['React', 'TypeScript', 'Redux'],
-            text: 'Сайт компании занимающийся кибербезопасностью и защитой информвционных систем',
-        },
-    }, {
-        id: 8,
-        title: 'ДагАвтоГид',
-        img: 'https://raw.githubusercontent.com/Samur000/props-profile-portfolio/main/08.jpg',
-        url: 'https://dagavtogid.ru/tours/mnogodnevnye/adat-trevel-gunib-chokh-gamsutl-2-dnya/',
-        des: {
-            stack: ['Html', 'Css', 'JavaScript'],
-            text: 'Сайт тур компании. В разработке данного проекта я учавствовал в роли верстальщика',
         },
     }],
 }
