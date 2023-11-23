@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useRef } from 'react'
 import bgImage from '../img/header-bg.svg'
-import cv from '../cv/resume.pdf'
+import cv from '../cv/resume-2.pdf'
 
 const extractTextFromChildren = (children) => {
 	let text = '';
