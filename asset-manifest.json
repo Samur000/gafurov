@@ -1,9 +1,9 @@
 {
   "files": {
     "main.css": "/gafurov/static/css/main.87e0b1fd.css",
-    "main.js": "/gafurov/static/js/main.314407c1.js",
+    "main.js": "/gafurov/static/js/main.47b6a277.js",
     "static/js/787.cf482a7c.chunk.js": "/gafurov/static/js/787.cf482a7c.chunk.js",
-    "static/media/resume.pdf": "/gafurov/static/media/resume.84e9f2007f764a8cfd22.pdf",
+    "static/media/resume-2.pdf": "/gafurov/static/media/resume-2.bde571a0f13985a35f48.pdf",
     "static/media/site.ic.png": "/gafurov/static/media/site.ic.b8976d71dad3e456f4db.png",
     "static/media/gitHub.svg": "/gafurov/static/media/gitHub.a5541850a2a6843f34467a91657cc39d.svg",
     "static/media/github-dark.svg": "/gafurov/static/media/github-dark.879a08487a26f06ac21248a96c866696.svg",
@@ -14,11 +14,11 @@
     "index.html": "/gafurov/index.html",
     "static/media/mail.svg": "/gafurov/static/media/mail.1f594b56615e11b4e9dc8c2d7dba1fd2.svg",
     "main.87e0b1fd.css.map": "/gafurov/static/css/main.87e0b1fd.css.map",
-    "main.314407c1.js.map": "/gafurov/static/js/main.314407c1.js.map",
+    "main.47b6a277.js.map": "/gafurov/static/js/main.47b6a277.js.map",
     "787.cf482a7c.chunk.js.map": "/gafurov/static/js/787.cf482a7c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.87e0b1fd.css",
-    "static/js/main.314407c1.js"
+    "static/js/main.47b6a277.js"
   ]
 }
