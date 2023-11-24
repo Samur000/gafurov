@@ -46,17 +46,16 @@ const MainBlock = () => {
 		}} className='header'>
 			<div className='container'>
 				<h1 className='header__title' data-aos='fade-right'>
-					<div><strong>Привет, меня зовут <span>&#60;Самур /></span></strong><br/>
+					<div><strong>Привет, меня зовут <span>&#60;Самур /{'>'}</span></strong><br/>
 						Я <span>Front-End</span> разработчик
 					</div>
 				</h1><br/>
 				<div className='header__text' data-aos='fade-left'>
 					<p>На простом языке <span>сайтовик</span> или же <span>разработчик сайтов</span><br/></p>
-					<p>Не на простом языке пижу веб приложения на стеке <span className='rct'>React</span> + <span className='ts'>TS</span></p>
+					<p>Не на простом языке пижу веб приложения на стеке <span className='rct'>React</span> + <span className='ts'>TypeScript</span></p>
 				</div>
 				<br/>
-				<a href={cv} className='btn white' target='_blank'>Посмотреть резюме</a>
-				{/* <a href={cv} className='btn white' download='resume_S_Gafurov.pdf'>Скачать резюме</a> */}
+				<a href={cv} className='btn white' download='resume_S_Gafurov.pdf'>Скачать резюме</a>
 				</div>
 		</header>
 	)
