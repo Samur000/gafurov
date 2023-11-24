@@ -55,7 +55,8 @@ const MainBlock = () => {
 					<p>Не на простом языке пижу веб приложения на стеке <span className='rct'>React</span> + <span className='ts'>TS</span></p>
 				</div>
 				<br/>
-				<a href={cv} className='btn white' download='resume_S_Gafurov.pdf'>Скачать резюме</a>
+				<a href={cv} className='btn white' target='_blank'>Посмотреть резюме</a>
+				{/* <a href={cv} className='btn white' download='resume_S_Gafurov.pdf'>Скачать резюме</a> */}
 				</div>
 		</header>
 	)

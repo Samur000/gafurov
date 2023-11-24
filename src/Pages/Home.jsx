@@ -7,14 +7,14 @@ import icon from '../icons/site.ic.png'
 
 const HomePage = () => {
 
-	return <div style={{overflow: 'hidden'}}>
+	return <div style={{ overflow: 'hidden' }}>
 		<Helmet>
 			<title>G.Samur</title>
 			<link rel="icon" type="image/png" href={icon} />
 		</Helmet>
-		<MainBlock/>
-		<AboutBlock/>
-		<ProjectsBlock/>
+		<MainBlock />
+		<AboutBlock />
+		<ProjectsBlock />
 	</div>
 }
 
