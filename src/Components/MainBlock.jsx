@@ -50,7 +50,7 @@ const MainBlock = () => {
 	return (
 		<header style={{
 		}} className='header'>
-			<svg width="170" height="170" viewBox="0 0 170 170" fill="none" >
+			<svg width="auto" height="auto" viewBox="0 0 170 170" fill="none" >
 				<path d="M145 25H25V145H145V25Z" stroke="#393939" stroke-width="0.5" class="svg-elem-1"></path>
 				<path d="M133.67 15.4926L15.4926 36.3304L36.3304 154.507L154.507 133.67L133.67 15.4926Z" stroke="#393939" stroke-width="0.5" class="svg-elem-2"></path>
 				<path d="M120.86 8.09723L8.09721 49.1396L49.1396 161.903L161.903 120.86L120.86 8.09723Z" stroke="#393939" stroke-width="0.5" class="svg-elem-3"></path>

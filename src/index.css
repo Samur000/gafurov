@@ -916,19 +916,15 @@ span.ts {
 }
 
 svg {
-	width: 550px;
-	height: 550px;
+	max-width: 650px;
+	max-height: 650px;
 	position: absolute;
+	padding: 0 20px;
 }
 
 @media (max-width: 620px) {
 
 	/* Header */
-	svg {
-		width: 450px;
-		height: 450px;
-	}
-
 	.header {
 		min-height: 620px;
 		background-repeat: no-repeat;
@@ -1100,10 +1096,6 @@ svg {
 }
 
 @media (max-width: 500px) {
-	svg {
-		width: 350px;
-		height: 350px;
-	}
 
 	.project {
 		max-width: 150px;
@@ -1133,19 +1125,6 @@ svg {
 	.comp-name b {
 		font-size: 20px;
 		line-height: 1.5;
-	}
-}
-
-@media (max-width: 400px) {
-	svg {
-		width: 300px;
-		height: 300px;
-	}
-}
-@media (max-width: 330px) {
-	svg {
-		width: 250px;
-		height: 250px;
 	}
 }
 
