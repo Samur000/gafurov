@@ -4,7 +4,7 @@ export default function AboutEdu (  ) {
 	const Data = data.info
 	return <div className='section'>
 		<div className='container'>
-			<p data-aos='fade-right' className='about-paragraf'><b>Мое ообразование 🎓-></b><br/><br/></p>
+			<p data-aos='fade-right' className='about-paragraf'><b>Образование 🎓-></b><br/><br/></p>
 			<div className='edu'>
 				<div data-aos='fade-right'><b>Высшее - </b> {Data.edu.admissionYear} - {Data.edu.graduationYear}</div>
 				<div data-aos='fade-right'><b>Название -</b> {Data.edu.name}</div>
