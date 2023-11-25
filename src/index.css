@@ -866,53 +866,53 @@ span.ts {
 }
 
 .svg-elem-1 {
-	-webkit-animation: animate-svg-stroke-1 var(--anim) cubic-bezier(0.68, -0.55, 0.265, 1.55) 1s both infinite;
-	animation: animate-svg-stroke-1 var(--anim) cubic-bezier(0.68, -0.55, 0.265, 1.55) 1s both infinite;
+	-webkit-animation: animate-svg-stroke-1 var(--anim) cubic-bezier(0.68, -0.55, 0.265, 1.55) 0s both infinite;
+	animation: animate-svg-stroke-1 var(--anim) cubic-bezier(0.68, -0.55, 0.265, 1.55) 0s both infinite;
 }
 
 .svg-elem-2 {
-	-webkit-animation: animate-svg-stroke-2 var(--anim) cubic-bezier(0.68, -0.55, 0.265, 1.55) 1s both infinite;
-	animation: animate-svg-stroke-2 var(--anim) cubic-bezier(0.68, -0.55, 0.265, 1.55) 1s both infinite;
+	-webkit-animation: animate-svg-stroke-2 var(--anim) cubic-bezier(0.68, -0.55, 0.265, 1.55) 0s both infinite;
+	animation: animate-svg-stroke-2 var(--anim) cubic-bezier(0.68, -0.55, 0.265, 1.55) 0s both infinite;
 }
 
 .svg-elem-3 {
-	-webkit-animation: animate-svg-stroke-3 var(--anim) cubic-bezier(0.68, -0.55, 0.265, 1.55) 1s both infinite;
-	animation: animate-svg-stroke-3 var(--anim) cubic-bezier(0.68, -0.55, 0.265, 1.55) 1s both infinite;
+	-webkit-animation: animate-svg-stroke-3 var(--anim) cubic-bezier(0.68, -0.55, 0.265, 1.55) 0s both infinite;
+	animation: animate-svg-stroke-3 var(--anim) cubic-bezier(0.68, -0.55, 0.265, 1.55) 0s both infinite;
 }
 
 .svg-elem-4 {
-	-webkit-animation: animate-svg-stroke-4 var(--anim) cubic-bezier(0.68, -0.55, 0.265, 1.55) 1s both infinite;
-	animation: animate-svg-stroke-4 var(--anim) cubic-bezier(0.68, -0.55, 0.265, 1.55) 1s both infinite;
+	-webkit-animation: animate-svg-stroke-4 var(--anim) cubic-bezier(0.68, -0.55, 0.265, 1.55) 0s both infinite;
+	animation: animate-svg-stroke-4 var(--anim) cubic-bezier(0.68, -0.55, 0.265, 1.55) 0s both infinite;
 }
 
 .svg-elem-5 {
-	-webkit-animation: animate-svg-stroke-5 var(--anim) cubic-bezier(0.68, -0.55, 0.265, 1.55) 1s both infinite;
-	animation: animate-svg-stroke-5 var(--anim) cubic-bezier(0.68, -0.55, 0.265, 1.55) 1s both infinite;
+	-webkit-animation: animate-svg-stroke-5 var(--anim) cubic-bezier(0.68, -0.55, 0.265, 1.55) 1s bo0h infinite;
+	animation: animate-svg-stroke-5 var(--anim) cubic-bezier(0.68, -0.55, 0.265, 1.55) 0s both infinite;
 }
 
 .svg-elem-6 {
-	-webkit-animation: animate-svg-stroke-6 var(--anim) cubic-bezier(0.68, -0.55, 0.265, 1.55) 1s both infinite;
-	animation: animate-svg-stroke-6 var(--anim) cubic-bezier(0.68, -0.55, 0.265, 1.55) 1s both infinite;
+	-webkit-animation: animate-svg-stroke-6 var(--anim) cubic-bezier(0.68, -0.55, 0.265, 1.55) 0s both infinite;
+	animation: animate-svg-stroke-6 var(--anim) cubic-bezier(0.68, -0.55, 0.265, 1.55) 0s both infinite;
 }
 
 .svg-elem-7 {
-	-webkit-animation: animate-svg-stroke-7 var(--anim) cubic-bezier(0.68, -0.55, 0.265, 1.55) 1s both infinite;
-	animation: animate-svg-stroke-7 var(--anim) cubic-bezier(0.68, -0.55, 0.265, 1.55) 1s both infinite;
+	-webkit-animation: animate-svg-stroke-7 var(--anim) cubic-bezier(0.68, -0.55, 0.265, 1.55) 0s both infinite;
+	animation: animate-svg-stroke-7 var(--anim) cubic-bezier(0.68, -0.55, 0.265, 1.55) 0s both infinite;
 }
 
 .svg-elem-8 {
-	-webkit-animation: animate-svg-stroke-8 var(--anim) cubic-bezier(0.68, -0.55, 0.265, 1.55) 1s both infinite;
-	animation: animate-svg-stroke-8 var(--anim) cubic-bezier(0.68, -0.55, 0.265, 1.55) 1s both infinite;
+	-webkit-animation: animate-svg-stroke-8 var(--anim) cubic-bezier(0.68, -0.55, 0.265, 1.55) 0s both infinite;
+	animation: animate-svg-stroke-8 var(--anim) cubic-bezier(0.68, -0.55, 0.265, 1.55) 0s both infinite;
 }
 
 .svg-elem-9 {
-	-webkit-animation: animate-svg-stroke-9 var(--anim) cubic-bezier(0.68, -0.55, 0.265, 1.55) 1s both infinite;
-	animation: animate-svg-stroke-9 var(--anim) cubic-bezier(0.68, -0.55, 0.265, 1.55) 1s both infinite;
+	-webkit-animation: animate-svg-stroke-9 var(--anim) cubic-bezier(0.68, -0.55, 0.265, 1.55) 0s both infinite;
+	animation: animate-svg-stroke-9 var(--anim) cubic-bezier(0.68, -0.55, 0.265, 1.55) 0s both infinite;
 }
 
 .svg-elem-10 {
-	-webkit-animation: animate-svg-stroke-10 var(--anim) cubic-bezier(0.68, -0.55, 0.265, 1.55) 1s both infinite;
-	animation: animate-svg-stroke-10 var(--anim) cubic-bezier(0.68, -0.55, 0.265, 1.55) 1s both infinite;
+	-webkit-animation: animate-svg-stroke-10 var(--anim) cubic-bezier(0.68, -0.55, 0.265, 1.55) 0s both infinite;
+	animation: animate-svg-stroke-10 var(--anim) cubic-bezier(0.68, -0.55, 0.265, 1.55) 0s both infinite;
 }
 
 svg {
