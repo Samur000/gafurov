@@ -74,7 +74,7 @@ const MainBlock = () => {
 					<p>Не на простом языке пижу веб приложения на стеке <span className='rct'>React</span> + <span className='ts'>TypeScript</span></p>
 				</div>
 				<br />
-				<a href={cv} className='btn white' download='resume_S_Gafurov.pdf'>Скачать резюме</a>
+				<a href='https://hh.ru/resume_converter/%D0%93%D0%B0%D1%84%D1%83%D1%80%D0%BE%D0%B2%20%D0%A1%D0%B0%D0%BC%D1%83%D1%80.pdf?hash=35f361d4ff0b9dc8210039ed1f437170725562&type=pdf&hhtmSource=resume&hhtmFrom=resume_builder_experience' className='btn white' download='resume_S_Gafurov.pdf'>Скачать резюме</a>
 			</div>
 		</header>
 	)

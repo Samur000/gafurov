@@ -207,7 +207,6 @@ body {
 }
 
 /* Header */
-@keyframes bg-anim {}
 
 .header {
 	min-height: 695px;
@@ -271,6 +270,7 @@ body {
 	font-weight: 500;
 	letter-spacing: .15px;
 	transition: .2s ease-in;
+	z-index: 99999;
 }
 
 .btn:hover {
@@ -920,6 +920,7 @@ svg {
 	max-height: 650px;
 	position: absolute;
 	padding: 0 20px;
+	pointer-events: none;
 }
 
 @media (max-width: 620px) {
@@ -1143,4 +1144,8 @@ body::-webkit-scrollbar-thumb {
 
 .contacts {
 	min-height: calc(100vh - 210px);
+}
+
+.btn.white{
+	z-index: 999;
 }
