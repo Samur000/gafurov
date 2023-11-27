@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useRef } from 'react'
-import bgImage from '../img/header-bg.svg'
 import cv from '../cv/resume-2.pdf'
+import main from '../img/main.png'
 
 
 
@@ -52,29 +52,35 @@ const MainBlock = () => {
 		}} className='header'>
 			<svg width="auto" height="auto" viewBox="0 0 170 170" fill="none" >
 				<path d="M145 25H25V145H145V25Z" stroke="#393939" stroke-width="0.5" class="svg-elem-1"></path>
-				<path d="M133.67 15.4926L15.4926 36.3304L36.3304 154.507L154.507 133.67L133.67 15.4926Z" stroke="#393939" stroke-width="0.5" class="svg-elem-2"></path>
-				<path d="M120.86 8.09723L8.09721 49.1396L49.1396 161.903L161.903 120.86L120.86 8.09723Z" stroke="#393939" stroke-width="0.5" class="svg-elem-3"></path>
-				<path d="M106.961 3.03849L3.03845 63.0385L63.0385 166.962L166.961 106.962L106.961 3.03849Z" stroke="#393939" stroke-width="0.5" class="svg-elem-4"></path>
-				<path d="M92.3954 0.470088L0.470047 77.6046L77.6046 169.53L169.53 92.3954L92.3954 0.470088Z" stroke="#393939" stroke-width="0.5" class="svg-elem-5"></path>
-				<path d="M77.6046 0.470082L0.470047 92.3954L92.3954 169.53L169.53 77.6046L77.6046 0.470082Z" stroke="#393939" stroke-width="0.5" class="svg-elem-6"></path>
-				<path d="M63.0384 3.03849L3.03845 106.962L106.962 166.962L166.962 63.0385L63.0384 3.03849Z" stroke="#393939" stroke-width="0.5" class="svg-elem-7"></path>
-				<path d="M63.0384 3.03849L3.03845 106.962L106.962 166.962L166.962 63.0385L63.0384 3.03849Z" stroke="#393939" stroke-width="0.5" class="svg-elem-8"></path>
-				<path d="M36.3304 15.4927L15.4926 133.67L133.67 154.507L154.507 36.3305L36.3304 15.4927Z" stroke="#393939" stroke-width="0.5" class="svg-elem-9"></path>
-				<path d="M49.1396 8.09726L8.09718 120.86L120.86 161.903L161.903 49.1397L49.1396 8.09726Z" stroke="#393939" stroke-width="0.5" class="svg-elem-10"></path>
+				<path d="M133.67 15.4926L15.4926 36.3304L36.3304 154.507L154.507 133.67L133.67 15.4926Z" stroke="#393939" stroke-width="0.5" className="svg-elem-2"></path>
+				<path d="M120.86 8.09723L8.09721 49.1396L49.1396 161.903L161.903 120.86L120.86 8.09723Z" stroke="#393939" stroke-width="0.5" className="svg-elem-3"></path>
+				<path d="M106.961 3.03849L3.03845 63.0385L63.0385 166.962L166.961 106.962L106.961 3.03849Z" stroke="#393939" stroke-width="0.5" className="svg-elem-4"></path>
+				<path d="M92.3954 0.470088L0.470047 77.6046L77.6046 169.53L169.53 92.3954L92.3954 0.470088Z" stroke="#393939" stroke-width="0.5" className="svg-elem-5"></path>
+				<path d="M77.6046 0.470082L0.470047 92.3954L92.3954 169.53L169.53 77.6046L77.6046 0.470082Z" stroke="#393939" stroke-width="0.5" className="svg-elem-6"></path>
+				<path d="M63.0384 3.03849L3.03845 106.962L106.962 166.962L166.962 63.0385L63.0384 3.03849Z" stroke="#393939" stroke-width="0.5" className="svg-elem-7"></path>
+				<path d="M63.0384 3.03849L3.03845 106.962L106.962 166.962L166.962 63.0385L63.0384 3.03849Z" stroke="#393939" stroke-width="0.5" className="svg-elem-8"></path>
+				<path d="M36.3304 15.4927L15.4926 133.67L133.67 154.507L154.507 36.3305L36.3304 15.4927Z" stroke="#393939" stroke-width="0.5" className="svg-elem-9"></path>
+				<path d="M49.1396 8.09726L8.09718 120.86L120.86 161.903L161.903 49.1397L49.1396 8.09726Z" stroke="#393939" stroke-width="0.5" className="svg-elem-10"></path>
 			</svg>
 
 			<div className='container'>
-				<h1 className='header__title' data-aos='fade-right'>
-					<div><strong>Привет, меня зовут <span>&#60;Самур /{'>'}</span></strong><br />
-						Я <span>Front-End</span> разработчик
+				<div>
+
+					<h1 className='header__title' data-aos='fade-right'>
+						<div><strong>Привет, меня зовут <span>&#60;Самур /{'>'}</span></strong><br />
+							Я <span>Front-End</span> разработчик
+						</div>
+					</h1>
+					<div className='header__text' data-aos='fade-left'>
+						<p>На простом языке сайтовик или же разработчик сайтов</p>
+						<p>Не на простом языке пижу веб приложения на стеке <span className='rct'>React</span> + <span className='ts'>TypeScript</span></p>
 					</div>
-				</h1><br />
-				<div className='header__text' data-aos='fade-left'>
-					<p>На простом языке <span>сайтовик</span> или же <span>разработчик сайтов</span><br /></p>
-					<p>Не на простом языке пижу веб приложения на стеке <span className='rct'>React</span> + <span className='ts'>TypeScript</span></p>
+					{/* <br /> */}
+					<a href={cv} className='btn white' download='resume_S_Gafurov.pdf'>Скачать резюме</a>
 				</div>
-				<br />
-				<a href='https://hh.ru/resume_converter/%D0%93%D0%B0%D1%84%D1%83%D1%80%D0%BE%D0%B2%20%D0%A1%D0%B0%D0%BC%D1%83%D1%80.pdf?hash=35f361d4ff0b9dc8210039ed1f437170725562&type=pdf&hhtmSource=resume&hhtmFrom=resume_builder_experience' className='btn white' download='resume_S_Gafurov.pdf'>Скачать резюме</a>
+				<div>
+					<img src={main} alt="" />
+				</div>
 			</div>
 		</header>
 	)
