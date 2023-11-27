@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/gafurov/static/css/main.403b1f7f.css",
+    "main.css": "/gafurov/static/css/main.d4adb553.css",
     "main.js": "/gafurov/static/js/main.8c299f50.js",
     "static/js/787.cf482a7c.chunk.js": "/gafurov/static/js/787.cf482a7c.chunk.js",
     "static/media/resume-2.pdf": "/gafurov/static/media/resume-2.d044088931d5a3ef5d36.pdf",
@@ -13,12 +13,12 @@
     "index.html": "/gafurov/index.html",
     "static/media/whatsapp.svg": "/gafurov/static/media/whatsapp.cd0e77611f5fc6f1a52820c9571d5d80.svg",
     "static/media/mail.svg": "/gafurov/static/media/mail.1f594b56615e11b4e9dc8c2d7dba1fd2.svg",
-    "main.403b1f7f.css.map": "/gafurov/static/css/main.403b1f7f.css.map",
+    "main.d4adb553.css.map": "/gafurov/static/css/main.d4adb553.css.map",
     "main.8c299f50.js.map": "/gafurov/static/js/main.8c299f50.js.map",
     "787.cf482a7c.chunk.js.map": "/gafurov/static/js/787.cf482a7c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.403b1f7f.css",
+    "static/css/main.d4adb553.css",
     "static/js/main.8c299f50.js"
   ]
 }
