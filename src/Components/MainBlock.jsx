@@ -50,18 +50,22 @@ const MainBlock = () => {
 	return (
 		<header style={{
 		}} className='header'>
-			<svg width="auto" height="auto" viewBox="0 0 170 170" fill="none" >
-				<path d="M145 25H25V145H145V25Z" stroke="#393939" stroke-width="0.5" class="svg-elem-1"></path>
-				<path d="M133.67 15.4926L15.4926 36.3304L36.3304 154.507L154.507 133.67L133.67 15.4926Z" stroke="#393939" stroke-width="0.5" className="svg-elem-2"></path>
-				<path d="M120.86 8.09723L8.09721 49.1396L49.1396 161.903L161.903 120.86L120.86 8.09723Z" stroke="#393939" stroke-width="0.5" className="svg-elem-3"></path>
-				<path d="M106.961 3.03849L3.03845 63.0385L63.0385 166.962L166.961 106.962L106.961 3.03849Z" stroke="#393939" stroke-width="0.5" className="svg-elem-4"></path>
-				<path d="M92.3954 0.470088L0.470047 77.6046L77.6046 169.53L169.53 92.3954L92.3954 0.470088Z" stroke="#393939" stroke-width="0.5" className="svg-elem-5"></path>
-				<path d="M77.6046 0.470082L0.470047 92.3954L92.3954 169.53L169.53 77.6046L77.6046 0.470082Z" stroke="#393939" stroke-width="0.5" className="svg-elem-6"></path>
-				<path d="M63.0384 3.03849L3.03845 106.962L106.962 166.962L166.962 63.0385L63.0384 3.03849Z" stroke="#393939" stroke-width="0.5" className="svg-elem-7"></path>
-				<path d="M63.0384 3.03849L3.03845 106.962L106.962 166.962L166.962 63.0385L63.0384 3.03849Z" stroke="#393939" stroke-width="0.5" className="svg-elem-8"></path>
-				<path d="M36.3304 15.4927L15.4926 133.67L133.67 154.507L154.507 36.3305L36.3304 15.4927Z" stroke="#393939" stroke-width="0.5" className="svg-elem-9"></path>
-				<path d="M49.1396 8.09726L8.09718 120.86L120.86 161.903L161.903 49.1397L49.1396 8.09726Z" stroke="#393939" stroke-width="0.5" className="svg-elem-10"></path>
+			<svg width="auto" height="auto" viewBox="0 0 171 171" fill="none" xmlns="http://www.w3.org/2000/svg">
+				<path d="M122.727 9.26473L9.26459 48.3329L48.3328 161.795L161.795 122.727L122.727 9.26473Z" stroke="#393939" stroke-width="0.5" class="svg-elem-1"></path>
+				<path d="M115.938 6.31299L6.31293 55.1214L55.1213 164.747L164.747 115.938L115.938 6.31299Z" stroke="#393939" stroke-width="0.5" class="svg-elem-2"></path>
+				<path d="M108.919 3.96426L3.96423 62.1414L62.1414 167.096L167.096 108.919L108.919 3.96426Z" stroke="#393939" stroke-width="0.5" class="svg-elem-3"></path>
+				<path d="M101.721 2.23612L2.23621 69.3393L69.3394 168.824L168.824 101.721L101.721 2.23612Z" stroke="#393939" stroke-width="0.5" class="svg-elem-4"></path>
+				<path d="M94.3996 1.14195L1.14209 76.6604L76.6605 169.918L169.918 94.3994L94.3996 1.14195Z" stroke="#393939" stroke-width="0.5" class="svg-elem-5"></path>
+				<path d="M87.011 0.690037L0.690247 84.049L84.0492 170.37L170.37 87.0108L87.011 0.690037Z" stroke="#393939" stroke-width="0.5" class="svg-elem-6"></path>
+				<path d="M79.611 0.883826L0.883972 91.4489L91.4491 170.176L170.176 79.6109L79.611 0.883826Z" stroke="#393939" stroke-width="0.5" class="svg-elem-7"></path>
+				<path d="M72.2556 1.72179L1.72137 98.8038L98.8034 169.338L169.338 72.256L72.2556 1.72179Z" stroke="#393939" stroke-width="0.5" class="svg-elem-8"></path>
+				<path d="M65.0022 3.19763L3.19763 106.058L106.058 167.862L167.862 65.0022L65.0022 3.19763Z" stroke="#393939" stroke-width="0.5" class="svg-elem-9"></path>
+				<path d="M57.9043 5.30007L5.29974 113.155L113.155 165.76L165.76 57.9046L57.9043 5.30007Z" stroke="#393939" stroke-width="0.5" class="svg-elem-10"></path>
+				<path d="M51.017 8.01305L8.01282 120.043L120.042 163.047L163.047 51.0172L51.017 8.01305Z" stroke="#393939" stroke-width="0.5" class="svg-elem-11"></path>
+				<path d="M44.3923 11.3159L11.3158 126.667L126.667 159.744L159.744 44.3924L44.3923 11.3159Z" stroke="#393939" stroke-width="0.5" class="svg-elem-12"></path>
 			</svg>
+
+
 
 			<div className='container'>
 				<div>
