@@ -9,7 +9,7 @@ export default function AboutStack(){
 				<div data-aos='fade-right'>⚡ Html, CSS ( SASS / SCSS ), JavaScript</div>
 				<div data-aos='fade-right'>⚡ React, React Router, Next.js, Svelte, Redux, TypeScript, Axios</div>
 				<div data-aos='fade-right'>⚡ Styled Components, Bootstrap, React-Bootstrap, Ant Design</div>
-				<div data-aos='fade-right'>⚡ WebsStorm , GitHub , Figma , ClickUp</div>
+				<div data-aos='fade-right'>⚡ WebStorm , GitHub , Figma , ClickUp</div>
 			</div>
 		</div>
 	</div>

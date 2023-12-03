@@ -77,7 +77,7 @@ const MainBlock = () => {
 					</h1>
 					<div className='header__text' data-aos='fade-left'>
 						<p>На простом языке сайтовик или же разработчик сайтов</p>
-						<p>Не на простом языке пижу веб приложения на стеке <span className='rct'>React</span> + <span className='ts'>TypeScript</span></p>
+						<p>Не на простом языке пишу веб приложения на стеке <span className='rct'>React</span> + <span className='ts'>TypeScript</span></p>
 					</div>
 					<a href={cv} className='btn white' download='resume_S_Gafurov.pdf'>Скачать резюме</a>
 				</div>
